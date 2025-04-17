@@ -9,4 +9,14 @@
     array (
     ),
   ),
+  'bootstrap/dist/css/bootstrap.min.css' => 
+  array (
+    'version' => '5.3.5',
+    'dependencies' => 
+    array (
+    ),
+    'extraFiles' => 
+    array (
+    ),
+  ),
 );
