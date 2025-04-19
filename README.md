@@ -27,3 +27,6 @@
 - 03:18:10 - Fonctionnalité : Afficher / Modifier son profil utilisateur
 - 03:27:18 - Déployer l'application en production sur Hostinger avec Portainer
 - 03:34:17 - Outro
+
+### A rajouter
+- ligne 39 html register = <p class="my-3 text-muted"> Vous avez déja un compte ? <a href="{{path('login')}}" class="text-decoration-none">Se connecter </a></p>
