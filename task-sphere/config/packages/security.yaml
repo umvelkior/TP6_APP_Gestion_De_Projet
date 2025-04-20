@@ -7,6 +7,15 @@ security:
             pattern: ^/(_(profiler|wdt)|css|images|js)/
             security: false
 
+        main:
+            form_login:
+                check_path: login_index
+                login_path: login_index
+
+            lazy: true
+
+            provider: app_user_provider
+
     access_control:
 
     providers:

@@ -16,7 +16,7 @@
 - 11:50 - Création de la page d'accueil **OK**
 - 12:57- Création des entités Doctrine  **OK**
 - 26:00 - Installation de Bootstrap avec l'AssetMapper  **OK**
-- 27:40 - Création de la page d'inscription
+- 27:40 - Création de la page d'inscription **OK**
 - 42:52 - Création de la page de connexion
 - 51:55 - Création de la Navbar
 - 51:10 - Fonctionnalité : Créer un projet

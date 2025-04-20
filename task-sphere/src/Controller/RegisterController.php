@@ -14,7 +14,7 @@ class RegisterController extends AbstractController
 {
     public function __construct(private readonly RegisterService $registerService){}
 
-    #[Route('/register', name: 'app_register')]
+    #[Route('/register', name: 'register_index')]
     public function index(Request $request): Response
     {
         $form = $this
