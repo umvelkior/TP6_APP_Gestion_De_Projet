@@ -1,5 +1,4 @@
 import './bootstrap.js';
-import 'bootstrap';
-import * as bootstrap from 'vendor/bootstrap';
+import './bootstrap';
 import './vendor/bootstrap/dist/css/bootstrap.min.css';
 import './styles/app.css';

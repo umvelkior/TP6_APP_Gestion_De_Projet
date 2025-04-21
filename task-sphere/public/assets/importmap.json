@@ -1,0 +1,58 @@
+{
+    "app": {
+        "path": "\/assets\/app-249a0a9c78bdf9ad6b2969eb32b52b6d.js",
+        "type": "js"
+    },
+    "\/assets\/bootstrap.js": {
+        "path": "\/assets\/bootstrap-4a55337d1e406add304d8eeb5bf586b0.js",
+        "type": "js"
+    },
+    "\/assets\/@symfony\/stimulus-bundle\/controllers.js": {
+        "path": "\/assets\/@symfony\/stimulus-bundle\/controllers-87c27e4915494ff929af4ba09b3c82d9.js",
+        "type": "js"
+    },
+    "\/assets\/@symfony\/ux-live-component\/live_controller.js": {
+        "path": "\/assets\/@symfony\/ux-live-component\/live_controller-98c0befe3e544668ea06eb8bfd972b45.js",
+        "type": "js"
+    },
+    "\/assets\/@symfony\/ux-live-component\/live.min.css": {
+        "path": "\/assets\/@symfony\/ux-live-component\/live.min-5108f988fb2a3dbb292d6feebc9db7e8.css",
+        "type": "css"
+    },
+    "\/assets\/controllers\/hello_controller.js": {
+        "path": "\/assets\/controllers\/hello_controller-99aa06d3014798d86001c324468d497f.js",
+        "type": "js"
+    },
+    "\/assets\/vendor\/bootstrap\/dist\/css\/bootstrap.min.css": {
+        "path": "\/assets\/vendor\/bootstrap\/dist\/css\/bootstrap.min-8a7ddde120960db58b56f9d22d3b1b87.css",
+        "type": "css"
+    },
+    "\/assets\/styles\/app.css": {
+        "path": "\/assets\/styles\/app-99aa06d3014798d86001c324468d497f.css",
+        "type": "css"
+    },
+    "@symfony\/stimulus-bundle": {
+        "path": "\/assets\/@symfony\/stimulus-bundle\/loader-e1ee9ace0562f2e6a52301e4ccc8627d.js",
+        "type": "js"
+    },
+    "@symfony\/ux-live-component": {
+        "path": "\/assets\/@symfony\/ux-live-component\/live_controller-98c0befe3e544668ea06eb8bfd972b45.js",
+        "type": "js"
+    },
+    "@hotwired\/stimulus": {
+        "path": "\/assets\/vendor\/@hotwired\/stimulus\/stimulus.index-4b8ccd71e6b1c4ddba22853d5a50a26c.js",
+        "type": "js"
+    },
+    "bootstrap\/dist\/css\/bootstrap.min.css": {
+        "path": "\/assets\/vendor\/bootstrap\/dist\/css\/bootstrap.min-8a7ddde120960db58b56f9d22d3b1b87.css",
+        "type": "css"
+    },
+    "bootstrap": {
+        "path": "\/assets\/vendor\/bootstrap\/bootstrap.index-893e7b885ab0ccb854d7482ceefb56e4.js",
+        "type": "js"
+    },
+    "@popperjs\/core": {
+        "path": "\/assets\/vendor\/@popperjs\/core\/core.index-4013baa633d6c530f3ac068433ba0593.js",
+        "type": "js"
+    }
+}
