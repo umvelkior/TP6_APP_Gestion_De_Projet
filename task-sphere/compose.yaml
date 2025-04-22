@@ -39,3 +39,14 @@ volumes:
   caddy_data:
   caddy_config:
   db_data:
+
+  phpmyadmin:
+    image: phpmyadmin/phpmyadmin
+    depends_on:
+      - db
+    environment:
+      PMA_HOST: db
+      PMA_PORT: 3306
+    ports:
+      - 8444:80
+

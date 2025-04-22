@@ -2,6 +2,7 @@
 - port utilisé en vidéo : 3306
 - port utilisé perso : 3307
 - Port PHP = voir compose.yaml => Connection http://localhost:8080
+- https://localhost:8443/
 
 ### Démarrer
 - docker compose up -d --build
@@ -20,12 +21,12 @@
 - 42:52 - Création de la page de connexion  **OK**
 - 51:55 - Création de la Navbar **OK**
 - 51:10 - Fonctionnalité : Créer un projet
-- 01:15:00 - Fonctionnalité : Liste des projets
-- 01:33:16 - Fonctionnalité : Créer un ticket
-- 01:55:45 - Fonctionnalité : Afficher / Modifier un ticket / Ajouter des pièces jointes
-- 02:54:34 - Fonctionnalité : Tableau de bord d'un projet
-- 03:18:10 - Fonctionnalité : Afficher / Modifier son profil utilisateur
-- 03:27:18 - Déployer l'application en production sur Hostinger avec Portainer
+- 01:15:00 - Fonctionnalité : Liste des projets **OK**
+- 01:33:16 - Fonctionnalité : Créer un ticket **OK**
+- 01:55:45 - Fonctionnalité : Afficher / Modifier un ticket / Ajouter des pièces jointes **OK**
+- 02:54:34 - Fonctionnalité : Tableau de bord d'un projet **OK**
+- 03:18:10 - Fonctionnalité : Afficher / Modifier son profil utilisateur **OK**
+- 03:27:18 - Déployer l'application en production sur Hostinger avec Portainer **OK**
 - 03:34:17 - Outro
 
 ### A rajouter
