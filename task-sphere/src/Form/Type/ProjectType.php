@@ -3,28 +3,42 @@
 namespace App\Form\Type;
 
 use App\Entity\Project;
-use Dom\Entity;
+use App\Entity\User;
+use Symfony\Bridge\Doctrine\Form\Type\EntityType;
 use Symfony\Component\Form\AbstractType;
-use Symfony\Component\Form\Extension\Core\Type\SubmitType;
 use Symfony\Component\Form\Extension\Core\Type\TextType;
 use Symfony\Component\Form\FormBuilderInterface;
 use Symfony\Component\OptionsResolver\OptionsResolver;
-use App\Entity\User;
-use Symfony\Bridge\Doctrine\Form\Type\EntityType;
+use Symfony\Component\Form\Extension\Core\Type\SubmitType;
+use Symfony\Bundle\SecurityBundle\Security;
 
 class ProjectType extends AbstractType
 {
+    public function __construct(
+        private readonly Security $security
+    ){
+    }
+
+
     public function buildForm(FormBuilderInterface $builder, array $options): void
     {
         $builder
             ->add('name', TextType::class, [
-                'label' => 'Nom'
+                'label' => 'Nom',
             ])
             ->add('keyCode', TextType::class, [
-                'label' => 'Clé'
+                'label' => 'Clé',
             ])
             ->add('leadUser', EntityType::class, [
+                'attr' => [
+                    'class' => 'd-none'
+                ],
                 'class' => User::class,
+                'data' => $this->security->getUser(),
+                'label' => false,
+            ])
+            ->add('submit', SubmitType::class, [
+                'label' => 'Créer un projet',
             ])
         ;
     }
