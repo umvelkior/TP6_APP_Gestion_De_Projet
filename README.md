@@ -18,7 +18,7 @@
 - 26:00 - Installation de Bootstrap avec l'AssetMapper  **OK**
 - 27:40 - Création de la page d'inscription **OK**
 - 42:52 - Création de la page de connexion  **OK**
-- 51:55 - Création de la Navbar
+- 51:55 - Création de la Navbar **OK**
 - 51:10 - Fonctionnalité : Créer un projet
 - 01:15:00 - Fonctionnalité : Liste des projets
 - 01:33:16 - Fonctionnalité : Créer un ticket

@@ -51,7 +51,7 @@ class ProjectForm extends AbstractController
         $em->flush();
 
         return $this->redirectToRoute('project_show', [
-            'key' => $project->getKeyCode(),
+            'keyCode' => $project->getKeyCode(),
         ]);
     }
 }

@@ -1,25 +1,19 @@
 <nav class="bg-body-tertiary navbar navbar-expand-lg navbar-light">
     <div class="container-fluid">
-        <a href="#" class="fw-bold text-primary navbar-brand">Gestion de Projet</a>
+        <a  class="fw-bold text-primary navbar-brand" href="{{path('home_index')}}">Gestion de Projet</a>
         <button aria-controls="navbar" class="navbar-toggler collapsed" data-bs-target="#navbar" data-bs-toggle="collapse">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="navbar-collapse collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                 <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">Home</a>
-                </li>
-                <li class="nav-item">
                     <a class="nav-link" href="#">Link</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Tous les projets</a>
+                    <a class="nav-link" href="{{  path('project_list') }}">Tous les projets</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" data-bs-target="#modalCreateProject" data-bs-toggle="modal" href="#">Créer un projet</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link disabled" aria-disabled="true">Disabled</a>
                 </li>
             </ul>
             <form class="d-flex" role="search">
