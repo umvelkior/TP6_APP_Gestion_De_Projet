@@ -35,4 +35,30 @@ return [
     '@popperjs/core' => [
         'version' => '2.11.8',
     ],
+    'controllers/issue_controller.js' => [
+        'path' => './assets/controllers/issue_controller.js',
+    ],
+    'controllers/project_board_controller.js' => [
+        'path' => './assets/controllers/project_board_controller.js',
+    ],
+    'controllers/modal_add_people_controller.js' => [
+        'path' => './assets/controllers/modal_add_people_controller.js',
+    ],
+    'tom-select' => [
+        'version' => '2.4.3',
+    ],
+    '@orchidjs/sifter' => [
+        'version' => '1.1.0',
+    ],
+    '@orchidjs/unicode-variants' => [
+        'version' => '1.1.2',
+    ],
+    'tom-select/dist/css/tom-select.default.min.css' => [
+        'version' => '2.4.3',
+        'type' => 'css',
+    ],
+    'tom-select/dist/css/tom-select.bootstrap5.css' => [
+        'version' => '2.4.3',
+        'type' => 'css',
+    ],
 ];

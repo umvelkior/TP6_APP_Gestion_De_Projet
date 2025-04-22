@@ -1,11 +1,17 @@
 [
     "\/assets\/bootstrap.js",
-    "\/assets\/vendor\/bootstrap\/dist\/css\/bootstrap.min.css",
+    "bootstrap\/dist\/css\/bootstrap.min.css",
+    "bootstrap",
     "\/assets\/styles\/app.css",
     "@symfony\/stimulus-bundle",
+    "\/assets\/controllers\/project_board_controllers.js",
+    "@popperjs\/core",
     "@hotwired\/stimulus",
     "\/assets\/@symfony\/stimulus-bundle\/controllers.js",
+    "@symfony\/ux-live-component",
     "\/assets\/@symfony\/ux-live-component\/live_controller.js",
     "\/assets\/@symfony\/ux-live-component\/live.min.css",
-    "\/assets\/controllers\/hello_controller.js"
+    "\/assets\/controllers\/project_board_controller.js",
+    "\/assets\/controllers\/modal_add_people_controller.js",
+    "\/assets\/controllers\/issue_controller.js"
 ]

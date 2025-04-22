@@ -1,14 +1,22 @@
 {
-    "@symfony\/stimulus-bundle\/controllers.js": "\/assets\/@symfony\/stimulus-bundle\/controllers-87c27e4915494ff929af4ba09b3c82d9.js",
+    "@symfony\/stimulus-bundle\/controllers.js": "\/assets\/@symfony\/stimulus-bundle\/controllers-2dacf1075cfa9cc501854e00d8faf5b4.js",
     "@symfony\/stimulus-bundle\/loader.js": "\/assets\/@symfony\/stimulus-bundle\/loader-e1ee9ace0562f2e6a52301e4ccc8627d.js",
     "@symfony\/ux-live-component\/live.min.css": "\/assets\/@symfony\/ux-live-component\/live.min-5108f988fb2a3dbb292d6feebc9db7e8.css",
     "@symfony\/ux-live-component\/live_controller.js": "\/assets\/@symfony\/ux-live-component\/live_controller-98c0befe3e544668ea06eb8bfd972b45.js",
-    "app.js": "\/assets\/app-249a0a9c78bdf9ad6b2969eb32b52b6d.js",
-    "bootstrap.js": "\/assets\/bootstrap-4a55337d1e406add304d8eeb5bf586b0.js",
-    "controllers\/hello_controller.js": "\/assets\/controllers\/hello_controller-99aa06d3014798d86001c324468d497f.js",
+    "app.js": "\/assets\/app-db5580285ae5b58680c8ae57d6c2b20c.js",
+    "bootstrap.js": "\/assets\/bootstrap-97b6b970e3148195340fe86fca22a603.js",
+    "controllers\/issue_controller.js": "\/assets\/controllers\/issue_controller-7760d28f0d08d686ad44b707d15cc115.js",
+    "controllers\/modal_add_people_controller.js": "\/assets\/controllers\/modal_add_people_controller-b58a93eaab37139e7d09d36a42ab449a.js",
+    "controllers\/project_board_controller.js": "\/assets\/controllers\/project_board_controller-1fb07f2645eac5d914d06d1a4d1ccc7f.js",
+    "controllers\/project_board_controllers.js": "\/assets\/controllers\/project_board_controllers-2b5725987785b7b2b6dc873c86ac90db.js",
     "styles\/app.css": "\/assets\/styles\/app-99aa06d3014798d86001c324468d497f.css",
     "vendor\/@hotwired\/stimulus\/stimulus.index.js": "\/assets\/vendor\/@hotwired\/stimulus\/stimulus.index-4b8ccd71e6b1c4ddba22853d5a50a26c.js",
+    "vendor\/@orchidjs\/sifter\/sifter.index.js": "\/assets\/vendor\/@orchidjs\/sifter\/sifter.index-cc4bb3b46ecd4e620ad595be73f0833a.js",
+    "vendor\/@orchidjs\/unicode-variants\/unicode-variants.index.js": "\/assets\/vendor\/@orchidjs\/unicode-variants\/unicode-variants.index-3a8268c8b4fd843b359986aaf3a23333.js",
     "vendor\/@popperjs\/core\/core.index.js": "\/assets\/vendor\/@popperjs\/core\/core.index-4013baa633d6c530f3ac068433ba0593.js",
     "vendor\/bootstrap\/bootstrap.index.js": "\/assets\/vendor\/bootstrap\/bootstrap.index-893e7b885ab0ccb854d7482ceefb56e4.js",
-    "vendor\/bootstrap\/dist\/css\/bootstrap.min.css": "\/assets\/vendor\/bootstrap\/dist\/css\/bootstrap.min-8a7ddde120960db58b56f9d22d3b1b87.css"
+    "vendor\/bootstrap\/dist\/css\/bootstrap.min.css": "\/assets\/vendor\/bootstrap\/dist\/css\/bootstrap.min-8a7ddde120960db58b56f9d22d3b1b87.css",
+    "vendor\/tom-select\/dist\/css\/tom-select.bootstrap5.css": "\/assets\/vendor\/tom-select\/dist\/css\/tom-select.bootstrap5-3e69ed7c7071256774877b8b5f84f479.css",
+    "vendor\/tom-select\/dist\/css\/tom-select.default.min.css": "\/assets\/vendor\/tom-select\/dist\/css\/tom-select.default.min-407cf54563c70d1cd371d7da318178c6.css",
+    "vendor\/tom-select\/tom-select.index.js": "\/assets\/vendor\/tom-select\/tom-select.index-4cf2bac1ef26a663a1e69c9fa79ad7fc.js"
 }
